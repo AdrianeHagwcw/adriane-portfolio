@@ -1,0 +1,25 @@
+import { RevealOnScroll } from "../RevealOnScroll"
+
+export const Home = () => {
+    return <section 
+    id="home" 
+    className="min-h-screen flex items-center justify-center relative"
+    >
+      <RevealOnScroll>
+        <div className="text-center z-10 px-4">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-right">Hi, I'm Adriane Aranda</h1>
+            <p className="text-xl md:text-2xl mb-8">
+                A Passionate computer programmer of CVSU-Bacoor Cavite.
+            </p>
+            <div className="flex justify-center space-x-4">
+                <a href="#projects" className="px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition relative overflow-hidden hover:translate-y-0.5">
+                    View Projects
+                </a>
+                <a href="#contact" className="border border-blue-500/50 px-6 py-3 bg-black-600 text-blue-500 rounded hover:bg-black-700 transition relative overflow-hidden hover:translate-y-0.5 hover:bg-blue-500/10 hover:border-blue-500 ">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+      </RevealOnScroll>
+    </section>
+}
