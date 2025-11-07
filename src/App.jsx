@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import { LoadingScreen } from './components/LoadingScreen.jsx';
 import { Navbar } from './components/Navbar.jsx';
-import { MobileMenu } from './components/Mobilemenu.jsx';
+import { MobileMenu } from './components/MobileMenu.jsx';
 import { Home } from './components/sections/Home.jsx';
 import { About } from './components/sections/About.jsx';
 import { Projects } from './components/sections/Projects.jsx';
