@@ -2,35 +2,35 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const Projects = () => {
   const projects = [
     {
-      subtitle: "Table Order List",
+      subtitle: "BOBBY VS TOTOY ROUND 1",
       description:
-        "Responsive Table Order List web application showing products status.",
-      tech: ["HTML", "CSS", "Bootstrap"],
-      image: "/photos/Screenshot (492).png",
-      link: "https://adrianehagwcw.github.io/Table/",
+        "Parehong may bitaw mahirap mamili ng panalo.",
+      tech: ["MUSIC", "RAP", "OBSCENE"],
+      image: "/photos/d52c86bd-21bb-4c9d-b643-0814edaa580b.jfif",
+      link: "https://www.facebook.com/reel/1262031465822766",
     },
     {
-      subtitle: "Restaurant Menu App",
+      subtitle: "BOBBY VS TOTOY ROUND 2",
       description:
-        "A restaurant ordering interface displaying dynamic menu categories and pricing.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      image: "/photos/Screenshot (493).png",
-      link: "https://adrianehagwcw.github.io/adriane-project/",
+        "Dito medyo may nauutal wala kasing charge kaya wala sa mood.",
+      tech: ["MUSIC", "RAP", "OBSCENE"],
+      image: "/photos/dcda5230-4989-4310-9678-12bd3fb2c56d.jfif",
+      link: "https://www.facebook.com/reel/1777446612864381",
     },
     {
-      subtitle: "Grade Calculator Web",
+      subtitle: "BOBBY VS TOTOY ROUND 3",
       description:
-        "A webpage that shows about myself, skills, projects, and contact information.",
-      tech: ["HTML", "CSS", "Bootstrap"],
-      image: "/photos/Screenshot (496).png",
-      link: "https://adrianehagwcw.github.io/gradecal/",
+        "Eto nag nagkakabatuhan na ng matitinding banat.",
+      tech: ["MUSIC", "RAP", "OBSCENE"],
+      image: "/photos/79cc70bf-776d-444e-840c-b091a915093c.jfif",
+      link: "https://www.facebook.com/reel/4461042570884645",
     },
     {
-      subtitle: "Kids Story Web",
-      description: "A simple short story that kids can enjoy.",
-      tech: ["HTML", "CSS", "Bootstrap"],
-      image: "/photos/Screenshot (495).png",
-      link: "https://adrianehagwcw.github.io/Typography/",
+      subtitle: "BOBBY VS TOTOY ROUND - FREESTYLE",
+      description: "Palitan ng banat walang pikunan suntukan lang.",
+      tech: ["MUSIC", "RAP", "OBSCENE"],
+      image: "/photos/7feef183-d1c0-4dd8-a7bd-dab4f0fb6a47.jfif",
+      link: "https://www.facebook.com/reel/1557052758893340",
     },
   ];
 
@@ -85,7 +85,7 @@ export const Projects = () => {
                   href={project.link}
                   className="text-blue-400 hover:text-blue-300 transition-colors"
                 >
-                  → View Project
+                  → View Video
                 </a>
               </div>
             </div>

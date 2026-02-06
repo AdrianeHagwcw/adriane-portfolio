@@ -4,9 +4,8 @@ import { LoadingScreen } from './components/LoadingScreen.jsx';
 import { Navbar } from './components/Navbar.jsx';
 import { MobileMenu } from './components/MobileMenu.jsx';
 import { Home } from './components/sections/Home.jsx';
-import { About } from './components/sections/About.jsx';
 import { Projects } from './components/sections/Projects.jsx';
-import { Contact } from './components/sections/Contact.jsx';
+import { Footer } from './components/Footer.jsx';
 import "./index.css";
 
 function App() {
@@ -30,7 +29,7 @@ function App() {
           className="absolute top-0 left-0 w-full h-full object-cover"
         >
           <source
-            src="/videos/x-large-vecteezy_blue-line-galaxy-space-motion-graphic-abstract-background_7277790_x-large.mp4"
+            src="/videos/vecteezy_modern-futuristic-sci-fi-background_34731768.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
@@ -42,9 +41,8 @@ function App() {
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           <Home />
-          <About />
           <Projects />
-          <Contact />
+          <Footer />
         </div>
       </div>
     </>

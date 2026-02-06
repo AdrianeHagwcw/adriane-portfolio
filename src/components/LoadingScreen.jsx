@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState("");
-  const fullText = "Adriane Aranda";
+  const fullText = "UbusanHangin Rap Battle";
 
   useEffect(() => {
     let index = 0;
@@ -30,7 +30,7 @@ export const LoadingScreen = ({ onComplete }) => {
       </div>
 
       {/* Responsive loading bar */}
-      <div className="w-full max-w-[400px] sm:max-w-[500px] h-[4px] bg-gray-800 rounded relative overflow-hidden">
+      <div className="w-full max-w-[400px] sm:max-w-[600px] h-[4px] bg-gray-800 rounded relative overflow-hidden">
         <div className="w-[40%] h-full bg-blue-500 shadow-[0_0_15px_#3b82f6] animate-loading-bar"></div>
       </div>
     </div>
